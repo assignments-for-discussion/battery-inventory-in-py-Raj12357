@@ -5,12 +5,12 @@ def count_batteries_by_usage(cycles):
     "highCount": 0
     }
     
-    for cycl in cycles:
+    for cyc in cycles:
         
-        if cycl < 400:
+        if cyc < 400:
             dict['lowCount'] += 1
             
-        elif cycl < 919:
+        elif cyc < 919:
             dict['mediumCount'] += 1
             
         else:
